@@ -1,5 +1,7 @@
 # name of executable
 
+HOME=/home/magulo
+
 ELF=$(notdir $(CURDIR)).elf                    
 
 # Tool path
@@ -11,7 +13,7 @@ TOOLROOT=/usr/bin
 
 
 #LIBROOT=/l/arm/STM32F10x_StdPeriph_Lib_V3.5.0
-LIBROOT=/home/magulo/Desktop/Arm-Studies/gcc-arm-none-eabi_samples/STM32F10x_StdPeriph_Lib_V3.5.0
+LIBROOT=$(HOME)/Desktop/Arm-Studies/gcc-arm-none-eabi_samples/STM32F10x_StdPeriph_Lib_V3.5.0
 
 # Tools
 
