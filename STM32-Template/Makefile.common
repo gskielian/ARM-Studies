@@ -1,6 +1,7 @@
 # name of executable
 
-HOME=/home/magulo
+#replace with your username
+HOME:=$(shell echo $(HOME))
 
 ELF=$(notdir $(CURDIR)).elf                    
 
